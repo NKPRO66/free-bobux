@@ -1,3 +1,3 @@
 # free-bobux
-gives you some free robux.
+gives you some free bobux.
 ## DONT CHECK SOURCE CODE OR ELSE CRINGE 😎
