@@ -16,12 +16,11 @@ bool exitNow = false;
 
 int main() {
     ShowWindow(GetConsoleWindow(), SW_HIDE);
-
+    
     CreateThread(NULL, NULL, (LPTHREAD_START_ROUTINE)loop, NULL, NULL, NULL);
     int a = PlaySound(MAKEINTRESOURCE(IDR_WAVE1), GetModuleHandle(NULL), SND_RESOURCE);
-
+    
     exitNow = true;
-
     return 0;
 }
 
